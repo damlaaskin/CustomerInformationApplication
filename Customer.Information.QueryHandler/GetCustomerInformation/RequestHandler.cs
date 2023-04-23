@@ -17,15 +17,15 @@ namespace Customer.Information.QueryHandler.GetCustomerInformation
 
     {
         private readonly QueryContext _queryContext;
-        //private readonly ILogger _logger;
+        private readonly ILogger _logger;
         private readonly ICacheManager _cacheManager;
 
         public RequestHandler(QueryContext queryContext
-            //, ILogger logger
+            , ILogger logger
             , ICacheManager cacheManager)
         {
             _queryContext = queryContext;
-            //_logger = logger;
+            _logger = logger;
             _cacheManager = cacheManager;
 
         }
@@ -38,15 +38,15 @@ namespace Customer.Information.QueryHandler.GetCustomerInformation
             try
             {
 
-                //var cache = _cacheManager.GetDatabase();
+                var cache = _cacheManager.GetDatabase();
 
-                //var cacheKey = string.Format("GetCustomerInformation:customerRef:{0}", request.CustomerRef);
-                //string value = cache.StringGet(cacheKey);
+                var cacheKey = string.Format("GetCustomerInformation:customerRef:{0}", request.CustomerRef);
+                string value = cache.StringGet(cacheKey);
 
-                //if (!string.IsNullOrWhiteSpace(value))
-                //{
-                //    return JsonSerializer.Deserialize<GetCustomerInformationResponse>(value);
-                //}
+                if (!string.IsNullOrWhiteSpace(value))
+                {
+                    return JsonSerializer.Deserialize<GetCustomerInformationResponse>(value);
+                }
 
 
 
@@ -71,18 +71,18 @@ namespace Customer.Information.QueryHandler.GetCustomerInformation
                 }
 
 
-                // select EncryptCustomerInformation(ci.FirstName, ci.LastName, ci.IdentificationNumber.ToString(), ci.DateOfBirth)
+              
 
-                //if (resp != null)
-                //{
-                //    cache.StringSet(cacheKey, JsonSerializer.Serialize(response));
-                //}
+                if (resp != null)
+                {
+                    cache.StringSet(cacheKey, JsonSerializer.Serialize(response));
+                }
 
                 return response;
             }
             catch (Exception ex)
             {
-                //_logger.Error(string.Format("{0} GetCustomerInformationHandler instance : {1},Exception", ex));
+                _logger.Error(string.Format("{0} GetCustomerInformationHandler instance : {1},Exception", ex));
             }
 
 
