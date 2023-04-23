@@ -18,15 +18,15 @@ namespace Customer.Information.QueryHandler.ListCustomerInformation
     public class RequestHandler : IRequestHandler<ListCustomerInformationRequest, ListCustomerInformationResponse>
     {
         private readonly QueryContext _queryContext;
-        //private readonly ILogger _logger;
+        private readonly ILogger _logger;
         private readonly ICacheManager _cacheManager;
 
         public RequestHandler(QueryContext queryContext
-            //, ILogger logger
+            , ILogger logger
             , ICacheManager cacheManager)
         {
             _queryContext = queryContext;
-            //_logger = logger;
+            _logger = logger;
             _cacheManager = cacheManager;
 
         }
@@ -39,15 +39,15 @@ namespace Customer.Information.QueryHandler.ListCustomerInformation
             try
             {
 
-                //var cache = _cacheManager.GetDatabase();
+                var cache = _cacheManager.GetDatabase();
 
-                //var cacheKey = string.Format("GetCustomerInformation:firstname:{0},lastname:{1},identificationnumber:{2}", request.FirstName, request.LastName, request.IdentificationNumber);
-                //string value = cache.StringGet(cacheKey);
+                var cacheKey = string.Format("GetCustomerInformation:firstname:{0},lastname:{1},identificationnumber:{2}", request.FirstName, request.LastName, request.IdentificationNumber);
+                string value = cache.StringGet(cacheKey);
 
-                //if (!string.IsNullOrWhiteSpace(value))
-                //{
-                //    return JsonSerializer.Deserialize<ListCustomerInformationResponse>(value);
-                //}
+                if (!string.IsNullOrWhiteSpace(value))
+                {
+                    return JsonSerializer.Deserialize<ListCustomerInformationResponse>(value);
+                }
 
 
 
@@ -79,7 +79,7 @@ namespace Customer.Information.QueryHandler.ListCustomerInformation
             }
             catch (Exception ex)
             {
-                //_logger.Error(string.Format("{0} GetCustomerInformationHandler instance : {1},Exception", ex));
+                _logger.Error(string.Format("{0} GetCustomerInformationHandler instance : {1},Exception", ex));
             }
 
 
