@@ -1,0 +1,1 @@
+﻿{"ContextClassName":"HR_PRODContext","DefaultDacpacSchema":null,"IdReplace":false,"IncludeConnectionString":false,"OutputPath":"Tables1","ProjectRootNamespace":"HR.Harmony.DataAccess","SelectedToBeGenerated":0,"Tables":[{"HasPrimaryKey":true,"Name":"Organization.tb_PersonCitizenship"}],"UseDatabaseNames":true,"UseFluentApiOnly":true,"UseHandleBars":false,"UseInflector":false}

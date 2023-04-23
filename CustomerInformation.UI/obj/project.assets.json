@@ -1,0 +1,226 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "MediatR/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Customer.Information.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CustomerInformation.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Customer.Information.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Customer.Information.Query.dll": {}
+        }
+      },
+      "CustomerInformation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MediatR": "4.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CustomerInformation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerInformation.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatR/4.1.0": {
+      "sha512": "xpResbmpvPjlZOApIyUgrhGksGYVTuxb3bYP0LolmlpCcXrkujuTTFm6NyCFN8MZkYDgsPpn4QWdxWLBMxoVYA==",
+      "type": "package",
+      "path": "mediatr/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MediatR.dll",
+        "lib/netstandard1.3/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.4.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "RestSharp/106.6.4": {
+      "sha512": "noe1ZBEPuVgC+75Z0nxxhCv7Qo9yA8/aUppWWdl3HVjalcwkdOo8tN0o3gJRizMBaok9XR91bDFW44Fof9yUnA==",
+      "type": "package",
+      "path": "restsharp/106.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.6.4.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "Customer.Information.Query/1.0.0": {
+      "type": "project",
+      "path": "../CustomerInformation.Query/Customer.Information.Query.csproj",
+      "msbuildProject": "../CustomerInformation.Query/Customer.Information.Query.csproj"
+    },
+    "CustomerInformation.Core/1.0.0": {
+      "type": "project",
+      "path": "../CustomerInformation.Core/CustomerInformation.Core.csproj",
+      "msbuildProject": "../CustomerInformation.Core/CustomerInformation.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "Customer.Information.Query >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.3",
+      "RestSharp >= 106.6.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.UI\\CustomerInformation.UI.csproj",
+      "projectName": "CustomerInformation.UI",
+      "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.UI\\CustomerInformation.UI.csproj",
+      "packagesPath": "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DAMLA.ASKIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\lcw_fileserver\\TFW\\FWNugetServer": {},
+        "\\\\lcw_fileserver\\TFW\\HrNugetServer": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/cs_nuget/nuget/v3/index.json": {},
+        "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/pars_core_nuget/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj": {
+              "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.6.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

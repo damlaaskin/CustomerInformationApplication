@@ -1,0 +1,15 @@
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.csproj.AssemblyReference.cache
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.AssemblyInfoInputs.cache
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.AssemblyInfo.cs
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.csproj.CoreCompileInputs.cache
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\bin\Debug\net5.0\Customer.Information.Data.Access.deps.json
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\bin\Debug\net5.0\Customer.Information.Data.Access.dll
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\bin\Debug\net5.0\ref\Customer.Information.Data.Access.dll
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\bin\Debug\net5.0\Customer.Information.Data.Access.pdb
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.dll
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\ref\Customer.Information.Data.Access.dll
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.pdb
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\bin\Debug\net5.0\CustomerInformation.Core.dll
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\bin\Debug\net5.0\CustomerInformation.Core.pdb
+C:\Users\DAMLA.ASKIN\source\repos\Customer.Information.Data.Access\obj\Debug\net5.0\Customer.Information.Data.Access.csproj.CopyComplete

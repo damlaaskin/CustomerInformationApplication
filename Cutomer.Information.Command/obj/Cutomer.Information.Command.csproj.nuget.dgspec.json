@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Cutomer.Information.Command\\Cutomer.Information.Command.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.Data.Access\\Customer.Information.Data.Access.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.Data.Access\\Customer.Information.Data.Access.csproj",
+        "projectName": "Customer.Information.Data.Access",
+        "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.Data.Access\\Customer.Information.Data.Access.csproj",
+        "packagesPath": "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.Data.Access\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAMLA.ASKIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\lcw_fileserver\\TFW\\FWNugetServer": {},
+          "\\\\lcw_fileserver\\TFW\\HrNugetServer": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/cs_nuget/nuget/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/pars_core_nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj": {
+                "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.QueryHandler\\Customer.Information.QueryHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.QueryHandler\\Customer.Information.QueryHandler.csproj",
+        "projectName": "Customer.Information.QueryHandler",
+        "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.QueryHandler\\Customer.Information.QueryHandler.csproj",
+        "packagesPath": "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.QueryHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAMLA.ASKIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\lcw_fileserver\\TFW\\FWNugetServer": {},
+          "\\\\lcw_fileserver\\TFW\\HrNugetServer": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/cs_nuget/nuget/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/pars_core_nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.Data.Access\\Customer.Information.Data.Access.csproj": {
+                "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.Data.Access\\Customer.Information.Data.Access.csproj"
+              },
+              "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj": {
+                "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj"
+              },
+              "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj": {
+                "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.104, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj",
+        "projectName": "CustomerInformation.Core",
+        "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj",
+        "packagesPath": "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAMLA.ASKIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\lcw_fileserver\\TFW\\FWNugetServer": {},
+          "\\\\lcw_fileserver\\TFW\\HrNugetServer": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/cs_nuget/nuget/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/pars_core_nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj",
+        "projectName": "Customer.Information.Query",
+        "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj",
+        "packagesPath": "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAMLA.ASKIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\lcw_fileserver\\TFW\\FWNugetServer": {},
+          "\\\\lcw_fileserver\\TFW\\HrNugetServer": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/cs_nuget/nuget/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/pars_core_nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj": {
+                "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Cutomer.Information.Command\\Cutomer.Information.Command.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Cutomer.Information.Command\\Cutomer.Information.Command.csproj",
+        "projectName": "Cutomer.Information.Command",
+        "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Cutomer.Information.Command\\Cutomer.Information.Command.csproj",
+        "packagesPath": "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Cutomer.Information.Command\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAMLA.ASKIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\lcw_fileserver\\TFW\\FWNugetServer": {},
+          "\\\\lcw_fileserver\\TFW\\HrNugetServer": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/cs_nuget/nuget/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/pars_core_nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.QueryHandler\\Customer.Information.QueryHandler.csproj": {
+                "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\Customer.Information.QueryHandler\\Customer.Information.QueryHandler.csproj"
+              },
+              "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj": {
+                "projectPath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Core\\CustomerInformation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

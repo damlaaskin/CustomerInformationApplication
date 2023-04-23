@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ToXbnOpG/zasLfz2kvOhvDIk/ZTtU3uCdhOCzJOohYOU395OBF7YDrRMycOsHywk9nZuYr0tdrme4R3+9/u2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.Query\\Customer.Information.Query.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\mediatr\\4.1.0\\mediatr.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

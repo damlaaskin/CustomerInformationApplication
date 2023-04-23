@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BEuDXHofDrsnL6uBYrSFd+fvIg/pSSJ8Gb+DQ6zLuCQkLcm1KZb5JNI+G8IhS1GV9uLz+JkdYvbTTJ3Birn/zA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DAMLA.ASKIN\\source\\repos\\CustomerInformation.UI\\CustomerInformation.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\mediatr\\4.1.0\\mediatr.4.1.0.nupkg.sha512",
+    "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\DAMLA.ASKIN\\.nuget\\packages\\restsharp\\106.6.4\\restsharp.106.6.4.nupkg.sha512"
+  ],
+  "logs": []
+}

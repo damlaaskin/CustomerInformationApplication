@@ -1,0 +1,15 @@
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\bin\Debug\net5.0\Customer.Information.Query.deps.json
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\bin\Debug\net5.0\Customer.Information.Query.dll
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\bin\Debug\net5.0\ref\Customer.Information.Query.dll
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\bin\Debug\net5.0\Customer.Information.Query.pdb
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\bin\Debug\net5.0\CustomerInformation.Core.dll
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\bin\Debug\net5.0\CustomerInformation.Core.pdb
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.csproj.AssemblyReference.cache
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.AssemblyInfoInputs.cache
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.AssemblyInfo.cs
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.csproj.CoreCompileInputs.cache
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.csproj.CopyComplete
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.dll
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\ref\Customer.Information.Query.dll
+C:\Users\DAMLA.ASKIN\source\repos\CustomerInformation.Query\obj\Debug\net5.0\Customer.Information.Query.pdb
